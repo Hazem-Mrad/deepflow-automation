@@ -24,11 +24,15 @@ This Python script automates the process of uploading Deepflow evaluation sheets
 - Make sure the target Drive folder exists and its ID or name is correctly set in the script.
 
 ## File Description:
+- `automatic_sheet_creation.py`: Python script for automatic Deepflow evaluation sheet creation.
+- `evaluation_sheet_template.xlsx`: Template for the evaluation sheet.
 - `automatic_upload_drive.py`: Python script for automatic uploading of Deepflow evaluation sheets to Google Drive.
 - `credentials.json`: File containing API credentials for Google Drive access.
 
 ## Usage:
 1. Modify the script parameters and paths.
-2. Update the credentials.json file with the necessary information.
-3. Run the Python script to upload the evaluation sheets to Google Drive and verify the consistency of lists.
+2. Run the `automatic_sheet_creation.py` Python script to generate the evaluation sheets.
+3. Modify the script parameters and paths.
+4. Update the credentials.json file with the necessary information.
+5. Run the `automatic_upload_drive.py` Python script to upload the evaluation sheets to Google Drive and verify the consistency of lists.
 
