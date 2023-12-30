@@ -1,6 +1,6 @@
 # Deepflow Automation Repository
 
-![Deepflow Automation](.assets/logo1.png)
+![Deepflow Automation](assets/logo1.png)
 
 Welcome to the Deepflow Automation Git repository!
 ...
