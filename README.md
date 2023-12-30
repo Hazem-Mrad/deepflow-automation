@@ -1,6 +1,6 @@
 # Deepflow Automation Repository
 
-![Deepflow Automation](.assets/logo.png)
+![Deepflow Automation](.assets/logo1.png)
 
 Welcome to the Deepflow Automation Git repository!
 ...
@@ -12,23 +12,21 @@ This repository is dedicated to automating Deepflow's sheet creation and drive p
 
 ### master
 
-The `master` branch serves as the primary branch. It includes stable versions of the automation scripts and codebase.
 
-### feature/onedrive-automation
+### feature df-recruitment
 
-The `feature/onedrive-automation` branch focuses on automating the migration process from Google Drive to OneDrive. It contains Python scripts that enable the creation of Excel sheets and their automatic upload to users' OneDrive accounts.
+The `deepflow-automation/df-recruitment` branch focuses on automating the migration process from Google Drive to OneDrive. It contains Python scripts that enable the creation of Excel sheets and their automatic upload to users' OneDrive accounts.
 
 ### feature/deepflow-drive-processing
 
-The `feature/deepflow-drive-processing` branch handles drive processing for Deepflow board members. It includes scripts that manage the drive structure and organization for board members, streamlining document sharing and storage within the Office 365 environment.
+The `deepflow-automation/df-evaluation` branch handles drive processing for Deepflow board members. It includes scripts that manage the drive structure and organization for evaluation sheets.
 
 ## Getting Started
 
 To start using the automation scripts:
 
-1. Clone or download the repository.
-2. Navigate to the specific branch based on your requirements.
-3. Follow the instructions provided in the README file within each branch for detailed steps on usage and setup.
+1. Navigate to the specific branch based on your requirements.
+2. Follow the instructions provided in the README file within each branch for detailed steps on usage and setup.
 
 ## Contributions
 
