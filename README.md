@@ -15,7 +15,7 @@ This repository is dedicated to automating Deepflow's sheet creation and drive p
 
 ### feature df-recruitment
 
-The `deepflow-automation/df-recruitment` branch focuses on automating the migration process from Google Drive to OneDrive. It contains Python scripts that enable the creation of Excel sheets and their automatic upload to users' OneDrive accounts.
+The `deepflow-automation/df-recruitment` branch focuses on automating the migration process from Google Drive to OneDrive. It contains Python script that enable the creation of Recruitment Excel sheets and folders and their automatic upload to user OneDrive account
 
 ### feature/deepflow-drive-processing
 
