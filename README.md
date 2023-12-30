@@ -1,38 +1,43 @@
-![logo](https://github.com/Hazem-Mrad/deepflow-automation/assets/114618938/6da2781e-2fb0-4e40-9b3e-340eeebe6eaa)
-# Deepflow Evaluation Sheet Automation - Automatic Upload to Drive
+# Deepflow Automation Repository
 
-This Python script automates the process of uploading Deepflow evaluation sheets to Google Drive and verifies the generated files' existence. It ensures consistency between the member lists.
+![Deepflow Automation](.assets/logo.png)
 
-## Steps to Run:
+Welcome to the Deepflow Automation Git repository!
+...
 
-### 1. Prerequisites:
-- Python installed on your system.
-- Required Python packages: openpyxl, Google Drive API.
 
-### 2. Modify Files:
-- Replace the placeholders in the script with the appropriate paths, such as the member names list and output folder.
-- Ensure the credentials.json file is updated with the required information.
+This repository is dedicated to automating Deepflow's sheet creation and drive processing for board members after the migration from Google to Office 365. It aims to simplify the process of creating and managing Excel sheets and drives for Deepflow's board members using Python automation.
 
-### 3. Execution:
-- Run the Python script.
-- It will verify that the member names list and the generated files in the 'Result' folder match.
-- It will use Google Drive API to upload the generated evaluation sheets to a specific Drive folder.
+## Branches
 
-### 4. Uploading to Google Drive:
-- The script will authenticate the user using the provided credentials.json file.
-- It will search for the specified Drive folder and upload the generated evaluation sheets to this folder.
-- Make sure the target Drive folder exists and its ID or name is correctly set in the script.
+### master
 
-## File Description:
-- `automatic_sheet_creation.py`: Python script for automatic Deepflow evaluation sheet creation.
-- `evaluation_sheet_template.xlsx`: Template for the evaluation sheet.
-- `automatic_upload_drive.py`: Python script for automatic uploading of Deepflow evaluation sheets to Google Drive.
-- `credentials.json`: File containing API credentials for Google Drive access.
+The `master` branch serves as the primary branch. It includes stable versions of the automation scripts and codebase.
 
-## Usage:
-1. Modify the script parameters and paths.
-2. Run the `automatic_sheet_creation.py` Python script to generate the evaluation sheets.
-3. Modify the script parameters and paths.
-4. Update the credentials.json file with the necessary information.
-5. Run the `automatic_upload_drive.py` Python script to upload the evaluation sheets to Google Drive and verify the consistency of lists.
+### feature/onedrive-automation
 
+The `feature/onedrive-automation` branch focuses on automating the migration process from Google Drive to OneDrive. It contains Python scripts that enable the creation of Excel sheets and their automatic upload to users' OneDrive accounts.
+
+### feature/deepflow-drive-processing
+
+The `feature/deepflow-drive-processing` branch handles drive processing for Deepflow board members. It includes scripts that manage the drive structure and organization for board members, streamlining document sharing and storage within the Office 365 environment.
+
+## Getting Started
+
+To start using the automation scripts:
+
+1. Clone or download the repository.
+2. Navigate to the specific branch based on your requirements.
+3. Follow the instructions provided in the README file within each branch for detailed steps on usage and setup.
+
+## Contributions
+
+Contributions to enhance the automation process are welcome! If you have any suggestions, improvements, or additional features to add, feel free to submit pull requests.
+
+## Issues
+
+If you encounter any issues or bugs while using the scripts, please report them in the repository's issue tracker.
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
